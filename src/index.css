@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Thème sombre manuel */
+.dark-theme {
+  background-color: #111827; /* équivalent à bg-gray-900 */
+  color: #f9fafb; /* équivalent à text-gray-50 */
+}
+
+.dark-theme .card {
+  background-color: #1f2937; /* équivalent à bg-gray-800 */
+}
