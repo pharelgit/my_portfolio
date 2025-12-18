@@ -1,8 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { Moon, Sun, Menu, X, Github, Linkedin, Mail, ExternalLink, Code, Briefcase, User, MessageSquare, Download } from 'lucide-react';
-import profilePhoto from './assets/images/profile-photo.jpg';
-import cvFile from './assets/files/cv.pdf';
-
+const profilePhoto = '/images/profile-photo.jpg';
+const cvFile = '/files/cv.pdf';
 const pythonLogo = (
   <svg viewBox="0 0 128 128" className="w-10 h-10">
     <linearGradient id="python-a" gradientUnits="userSpaceOnUse" x1="70.252" y1="1237.476" x2="170.659" y2="1151.089" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stopColor="#5A9FD4"/><stop offset="1" stopColor="#306998"/></linearGradient>
